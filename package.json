@@ -31,7 +31,7 @@
     "gulp-mocha": "^2.0.1",
     "gulp-nodemon": "^1.0.4",
     "gulp-replace": "^0.4.0",
-    "gulp-ruby-sass": "^1.0.1",
+    "gulp-sass": "^2.0.4",
     "gulp-size": "^1.0.0",
     "gulp-tar": "^1.8.0",
     "gulp-uglify": "^0.3.1",
