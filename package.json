@@ -35,7 +35,7 @@
     "gulp-sass": "^2.0.4",
     "gulp-size": "^1.0.0",
     "gulp-tar": "^1.8.0",
-    "gulp-uglify": "^0.3.1",
+    "gulp-uglify": "^0.3.2",
     "gulp-useref": "^0.6.0",
     "hbs": "~3.1.0",
     "jshint-stylish": "^2.2.0",
