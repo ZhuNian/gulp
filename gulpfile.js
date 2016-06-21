@@ -3,6 +3,7 @@ var gutil = require('gulp-util');
 var jshint = require('gulp-jshint');
 var sass   = require('gulp-sass');
 var Path = require('path');
+var concat = require('gulp-concat');
 
 gulp.task('default', function() {
   return gutil.log('Gulp is running');
@@ -22,4 +23,10 @@ gulp.task('scss', function() {
   gulp.src(Path.resolve(__dirname, 'public/stylesheets/*.scss'))
       .pipe(sass())
       .pipe(gulp.dest('public/stylesheets/css'))
+});
+
+gulp.task('concat', function() {
+  gulp.src(['public/source/javascripts/courage.js', 'public/source/javascripts/user.js'])
+      .pipe(concat('new.js'))
+      .pipe(gulp.dest('public/source/javascripts/'))
 });

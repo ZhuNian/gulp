@@ -1,0 +1,1 @@
+var user = 'this is user';
